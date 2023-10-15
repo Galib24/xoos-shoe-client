@@ -2,11 +2,14 @@ import React from 'react';
 
 const Navbar = () => {
     const navOption = <>
-        <li><a>Item 1</a></li>
+        <li><a>HOME</a></li>
         <li>
-            <a>Parent</a>
+            <a>COLLECTIONS</a>
         </li>
-        <li><a>Item 3</a></li>
+        <li><a>PRODUCTS</a></li>
+        <li><a>SHORT CODE</a></li>
+        <li><a>BLOGS</a></li>
+        <li><a>PAGES</a></li>
     </>
     return (
         <>
