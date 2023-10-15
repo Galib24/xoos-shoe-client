@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Men's Running Shoes",
+        "image": "https://i.ibb.co/rb3Sn7Y/snk-1-upto.png",
+        "rating": 4.7,
+        "price": 79.99
+    },
+    {
+        "id": 2,
+        "name": "Women's Athletic Sneakers",
+        "image": "https://i.ibb.co/QdR9Zw3/snk-2-upto.png",
+        "rating": 4.5,
+        "price": 64.99
+    },
+    {
+        "id": 3,
+        "name": "Kids' Sports Shoes",
+        "image": "https://i.ibb.co/4tSyj38/snk-3-upto.png",
+        "rating": 4.8,
+        "price": 49.99
+    },
+    {
+        "id": 4,
+        "name": "Men's Leather Dress Shoes",
+        "image": "https://i.ibb.co/MBMcGsW/snk-4-upto.png",
+        "rating": 4.6,
+        "price": 89.99
+    },
+    {
+        "id": 5,
+        "name": "Women's Hiking Boots",
+        "image": "https://i.ibb.co/HqTvbgN/snk-5-upto.png",
+        "rating": 4.9,
+        "price": 109.99
+    },
+    {
+        "id": 6,
+        "name": "Unisex Sneaker Collection",
+        "image": "https://i.ibb.co/Bg4jCyZ/snk-6-upto.png",
+        "rating": 4.7,
+        "price": 69.99
+    }
+]
