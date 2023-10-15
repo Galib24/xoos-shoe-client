@@ -1,8 +1,18 @@
-# React + Vite
+# Summer-camp-fitness-zone
+I made a basic shoe company landing page which is much attractive for client.
+s
+## statics
+taste task in low time 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Image resources
+resources -> [ImgBB](https://imgbb.com/)
+## server site
+resources -> [vercel](www.netlify.com)
 
-Currently, two official plugins are available:
+## complete Project in Github
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+GitHub Repo -> [Github-client-Link](https://github.com/Galib24/xoos-shoe-client)
+
+## complete project Live link
+Hosted in Fire Base -> [XOOS](https://652bb513ac5312595ffa9ef1--beautiful-praline-bad1cb.netlify.app/)
