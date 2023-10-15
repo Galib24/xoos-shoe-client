@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 .thumbs-wrapper ul{
-    display:flex !important;
+    display:none !important;
     justify-content: center !important;
     }
