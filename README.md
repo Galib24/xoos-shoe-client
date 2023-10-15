@@ -7,7 +7,7 @@ taste task in low time
 ## Image resources
 resources -> [ImgBB](https://imgbb.com/)
 ## server site
-resources -> [vercel](www.netlify.com)
+resources -> [Netlify](www.netlify.com)
 
 ## complete Project in Github
 
