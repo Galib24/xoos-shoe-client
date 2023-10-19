@@ -1,6 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './Navbar.css'
 
 const Navbar = () => {
+    // change scroll navbar
+    const [color, setColor] = useState(false);
+    const changeColor = () => {
+        if (window.scrollY >= 90) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+    window.addEventListener('scroll', changeColor)
     const navOption = <>
         <li><a>HOME</a></li>
         <li>
@@ -13,7 +24,7 @@ const Navbar = () => {
     </>
     return (
         <>
-            <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white max-w-screen-xl">
+            <div className={color ? 'header navbar' : 'header-bg  navbar'}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
