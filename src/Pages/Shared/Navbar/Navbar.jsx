@@ -41,8 +41,9 @@ const Navbar = () => {
                         {navOption}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Get Start</a>
+                <div className={color ? "navbar-end w-1/2 h-full  bg-slate-500 translate-x-4 -skew-x-12 origin-left p-10 " : 'navbar-end'}>
+
+                    <a className="btn mr-10">Get Start</a>
                 </div>
             </div>
         </>
