@@ -13,7 +13,15 @@ const Navbar = () => {
     }
     window.addEventListener('scroll', changeColor)
     const navOption = <>
-        <li><a>HOME</a></li>
+        <li>
+            <div className="w-fit">
+                <select className="bg-transparent cursor-pointer">
+                    <option>Buy a Business</option>
+                    <option className='p-2 m-2'>Search For Business</option>
+                    
+                </select>
+            </div>
+        </li>
         <li>
             <a>COLLECTIONS</a>
         </li>
@@ -41,7 +49,7 @@ const Navbar = () => {
                         {navOption}
                     </ul>
                 </div>
-                <div className={color ? "navbar-end w-1/2 h-full  bg-slate-500 translate-x-4 -skew-x-12 origin-left p-10 " : 'navbar-end'}>
+                <div className={color ? "navbar-end w-1/2 text-xl h-full text-[#212529]  bg-[#774e88] translate-x-4 -skew-x-12 origin-left p-10 " : 'navbar-end'}>
 
                     <a className="btn mr-10">Get Start</a>
                 </div>
