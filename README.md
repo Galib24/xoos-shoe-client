@@ -15,4 +15,4 @@ resources -> [Netlify](www.netlify.com)
 GitHub Repo -> [Github-client-Link](https://github.com/Galib24/xoos-shoe-client)
 
 ## complete project Live link
-Hosted in Fire Base -> [XOOS](https://652bb513ac5312595ffa9ef1--beautiful-praline-bad1cb.netlify.app/)
+Hosted in Fire Base -> [XOOS](https://beautiful-praline-bad1cb.netlify.app/)
