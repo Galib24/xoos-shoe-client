@@ -59,3 +59,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+// className="dropdown hidden sm:block hover:bg-[#774e88]  duration-300 ease-in-out  text-black dropdown-bottom dropdown-end xl:mr-20"

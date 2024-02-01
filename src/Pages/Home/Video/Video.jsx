@@ -5,44 +5,41 @@ import './Video.css'
 const Video = () => {
     return (
         <div className='main max-w-screen-2xl'>
-            <video  src={videoBg} autoPlay loop muted></video>
+            <video className='video' src={videoBg} autoPlay loop muted></video>
             <div className="overlay"></div>
             {/* input filed  */}
-           <div>
-             <div
-                className="grid grid-cols-12 top-64 right-96 overflow-hidden bg-white shadow-sm absolute py-4 px-28 rounded-full mt-8 lg:mt-16">
-                {/* icon */}
+            <div>
                 <div
-                    className="flex items-center justify-center col-span-2 lg:col-auto">
-                    <BsSearch className="text-2xl text-gray-500" />
-                </div>
-                {/* icon */}
 
-                {/* input */}
-                <div
-                    className="col-span-10 lg:col-span-8 flex  items-center justify-center">
-                    <input
-                        className="w-full px-4 lg:px-6 py-2 lg:py-3 border rounded-lg outline-none focus:border-transparent focus:ring-2 focus:ring-gray-50 mr-4 lg:mr-0"
-                        type="text"
-                        name="text"
-                        id=""
-                        placeholder="job title, keyword or company" />
-                </div>
-                {/* input */}
+                    className="grid grid-cols-12 top-72 right-52 left-52 overflow-hidden  mathew  shadow-lg absolute py-8 px-28 rounded-full mt-8 lg:mt-16">
+                    <div  className='flex  gap-3 '>
+                        <div style={{border: '1px solid black'}} className="w-fit mathewMan">
+                            <select style={{padding: '10px 8px'}} className="bg-transparent cursor-pointer">
+                                <option>Buy a Business</option>
+                                <option>Search For Business</option>
 
-                {/* btn */}
-                <div
-                    
-                    className="col-span-4 lg:col-span-3 lg:flex justify-center items-center mx-2 lg:mx-5 hidden">
-                    <button
-                        className="bg-[#40e1f9] hover:bg-[#40e1f9] text-white w-full rounded-full lg:py-3 lg:px-4 flex items-center justify-center text-center lg:font-bold font-semibold">
-                        Find Job
-                    </button>
-                </div>
-                {/* btn */}
+                            </select>
+                        </div>
+                        <div className="w-fit mathewMan">
+                            <select style={{padding: '10px 8px'}} className="bg-transparent cursor-pointer">
+                                <option>Buy a Business</option>
+                                <option>Search For Business</option>
 
+                            </select>
+                        </div>
+                        <div className="w-fit mathewMan">
+                            <select style={{padding: '10px 8px'}} className="bg-transparent cursor-pointer">
+                                <option>Buy a Business</option>
+                                <option>Search For Business</option>
+
+                            </select>
+                        </div>
+                       
+                    </div>
+
+                
+                </div>
             </div>
-           </div>
         </div>
     );
 };
